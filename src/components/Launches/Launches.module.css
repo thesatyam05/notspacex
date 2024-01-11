@@ -1,0 +1,13 @@
+body {
+    overflow: -moz-scrollbars-none;
+}
+
+/* Hide the scrollbar in WebKit browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide the scrollbar in IE and Edge */
+body {
+    -ms-overflow-style: none;
+}
